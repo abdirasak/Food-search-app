@@ -4,12 +4,13 @@ function RestaurantShow({ data }) {
   return (
     <div className='card'>
       <div className="card-header">
-        <img src={`https://picsum.photos/seed/${data.id}/150/90`} alt="books" />
+        <img src={data.image_url} alt="Restaurant" />
       </div>
       <div className="card-body">
-        <h3>{data.name}</h3>
-        <p>Rating: {data.rating}</p>
-        <p>Rating: {data.rating}</p>
+        <p><span>{data.name}</span></p>
+        <p> <span>Location:</span> {data.location.display_address.slice(0, 2).join(", ")}</p>
+        <p> {data.phone ? <span>Phone Number: {data.phone}</span> : null}</p>
+        <p> <span>Rating:</span> {data.rating}</p>
       </div>
     </div>
   )

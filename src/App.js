@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     fetchRestaurants('food', 'london')
-  }, [])
+  }, [fetchRestaurants])
   return (
     <div className="container">
       <RestaurantSearch />
