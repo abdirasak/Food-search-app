@@ -8,10 +8,10 @@ function Provider({ children }) {
   const [restaurants, setRestaurants] = useState([])
 
   const fetchRestaurants = useCallback(async (searchTerm, place) => {
-    const response = await axios.get('https://api.yelp.com/v3/businesses/search', {
+    const response = await axios.get('/search', {
       headers: {
         'Content-Type': 'application/json',
-        "Authorization": process.env.REACT_APP_TOKEN
+        "Authorization": process.env.React_App_TOKEN
       },
       params: {
         term: searchTerm,
