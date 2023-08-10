@@ -1,6 +1,4 @@
-#React App (Github-Search)
-
-# Getting Started with Create React App
+# React App (Github-Search)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
