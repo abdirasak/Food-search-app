@@ -1,4 +1,4 @@
-# Restaurant search spp using yelp api
+# Restaurant search app using Yelp API
 
 Hello and welcome to the React-Restaurants-Search repository. This React web application enables users to search for restaurants by location and search term. It uses the Yelp API to search for restaurants.
 
