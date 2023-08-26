@@ -1,6 +1,7 @@
 # React App (Github-Search)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Restuarant-search-app](https://github.com/abdirasak/React-Restaurants-Search/assets/6574458/201a1859-7f94-404f-b599-a1f16f1dda9c)
 
 ## Available Scripts
 
